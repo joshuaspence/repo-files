@@ -33,4 +33,4 @@ group:
       - 'joshuaspence/homelab'
       - 'joshuaspence/homelab-packer'
       - 'joshuaspence/infrastructure'
-      - 'joshuapspence/repo-files'
+      - 'joshuaspence/repo-files'
