@@ -3,34 +3,34 @@ group:
   - files:
       - source: 'configs/dependabot.yaml'
         dest: '.github/dependabot.yaml'
-    repos: |-
-      joshuaspence/Curriculum-Vitae
-      joshuaspence/esphome-null
-      joshuaspence/homelab
-      joshuaspence/infrastructure
-      joshuaspence/repo-files
+    repos:
+      - 'joshuaspence/Curriculum-Vitae'
+      - 'joshuaspence/esphome-null'
+      - 'joshuaspence/homelab'
+      - 'joshuaspence/infrastructure'
+      - 'joshuaspence/repo-files'
   - files:
       - source: 'configs/markdownlint.yaml'
         dest: '.markdownlint.yaml'
-    repos: |-
-      joshuaspence/homelab
+    repos:
+      - 'joshuaspence/homelab'
   - files:
       - source: 'configs/shellcheckrc'
         dest: '.shellcheckrc'
-    repos: |-
-      joshuaspence/homelab
-      joshuaspence/homelab-packer
+    repos:
+      - 'joshuaspence/homelab'
+      - 'joshuaspence/homelab-packer'
   - files:
       - source: 'configs/tflint.hcl'
         dest: '.tflint.hcl'
-    repos: |-
-      joshuaspence/infrastructure
+    repos:
+      - 'joshuaspence/infrastructure'
   - files:
       - source: 'configs/yamllint.yaml'
         dest: '.yamllint'
-    repos: |-
-      joshuaspence/home-assistant-config
-      joshuaspence/homelab
-      joshuaspence/homelab-packer
-      joshuaspence/infrastructure
-      joshuapspence/repo-files
+    repos:
+      - 'joshuaspence/home-assistant-config'
+      - 'joshuaspence/homelab'
+      - 'joshuaspence/homelab-packer'
+      - 'joshuaspence/infrastructure'
+      - 'joshuapspence/repo-files'
