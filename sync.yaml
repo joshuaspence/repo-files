@@ -21,11 +21,6 @@ group:
       - 'joshuaspence/homelab'
       - 'joshuaspence/homelab-packer'
   - files:
-      - source: 'configs/tflint.hcl'
-        dest: '.tflint.hcl'
-    repos:
-      - 'joshuaspence/infrastructure'
-  - files:
       - source: 'configs/yamllint.yaml'
         dest: '.github/yamllint.yaml'
     repos:
