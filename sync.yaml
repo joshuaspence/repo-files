@@ -27,7 +27,7 @@ group:
       - 'joshuaspence/infrastructure'
   - files:
       - source: 'configs/yamllint.yaml'
-        dest: '.yamllint'
+        dest: '.github/yamllint.yaml'
     repos:
       - 'joshuaspence/home-assistant-config'
       - 'joshuaspence/homelab'
