@@ -1,12 +1,16 @@
+# yamllint disable rule:key-ordering
 ---
 extends: 'default'
 
 rules:
   braces:
-    max-spaces-inside: 1
-    max-spaces-inside-empty: 0
+    forbid: 'non-empty'
     min-spaces-inside: 1
+    max-spaces-inside: 1
     min-spaces-inside-empty: 0
+    max-spaces-inside-empty: 0
+  brackets:
+    forbid: 'non-empty'
   comments:
     level: 'error'
   comments-indentation:
@@ -20,7 +24,7 @@ rules:
   empty-values: 'enable'
   indentation:
     spaces: 2
-  line-length: 'disable'
+  key-ordering: 'enable'
   octal-values: 'enable'
   quoted-strings:
     quote-type: 'single'
