@@ -1,17 +1,6 @@
 ---
 group:
   - files:
-      - source: 'configs/markdownlint.yaml'
-        dest: '.markdownlint.yaml'
-    repos:
-      - 'joshuaspence/homelab'
-  - files:
-      - source: 'configs/shellcheckrc'
-        dest: '.shellcheckrc'
-    repos:
-      - 'joshuaspence/homelab'
-      - 'joshuaspence/homelab-packer'
-  - files:
       - source: 'configs/yamllint.yaml'
         dest: '.github/yamllint.yaml'
     repos:
