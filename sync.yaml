@@ -5,6 +5,10 @@ group:
         dest: '.github/yamllint.yaml'
     repos:
       - 'joshuaspence/home-assistant-config'
-      - 'joshuaspence/homelab'
       - 'joshuaspence/homelab-packer'
       - 'joshuaspence/infrastructure'
+  - files:
+      - source: 'configs/yamllint/strict.yaml'
+        dest: '.github/yamllint.yaml'
+    repos:
+      - 'joshuaspence/homelab'
