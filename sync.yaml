@@ -1,7 +1,7 @@
 ---
 group:
   - files:
-      - source: 'configs/yamllint.yaml'
+      - source: 'configs/yamllint/default.yaml'
         dest: '.github/yamllint.yaml'
     repos:
       - 'joshuaspence/home-assistant-config'
