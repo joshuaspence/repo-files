@@ -1,15 +1,6 @@
 ---
 group:
   - files:
-      - source: 'configs/dependabot.yaml'
-        dest: '.github/dependabot.yaml'
-    repos:
-      - 'joshuaspence/Curriculum-Vitae'
-      - 'joshuaspence/esphome-null'
-      - 'joshuaspence/home-assistant-config'
-      - 'joshuaspence/homelab'
-      - 'joshuaspence/infrastructure'
-  - files:
       - source: 'configs/markdownlint.yaml'
         dest: '.markdownlint.yaml'
     repos:
