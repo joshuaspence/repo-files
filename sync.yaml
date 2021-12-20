@@ -6,6 +6,7 @@ group:
     repos:
       - 'joshuaspence/Curriculum-Vitae'
       - 'joshuaspence/esphome-null'
+      - 'joshuaspence/home-assistant-config'
       - 'joshuaspence/homelab'
       - 'joshuaspence/infrastructure'
   - files:
